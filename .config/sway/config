@@ -248,3 +248,5 @@ mode "(l)ogout, (r)eboot, (p)oweroff" {
 }
 
 bindsym $mod+Shift+p mode "(l)ogout, (r)eboot, (p)oweroff"
+
+output 'Samsung Display Corp. 0x4171 Unknown' scale 1.7

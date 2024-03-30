@@ -1,7 +1,7 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
   font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 window#waybar {
@@ -47,7 +47,6 @@ button:hover {
   box-shadow: inset 0 -3px #ffffff;
 }
 
-#clock,
 #battery,
 #cpu,
 #memory,
@@ -76,6 +75,7 @@ button:hover {
 }
 
 #clock {
+  padding-top: 2px;
   color: #ffffff;
 }
 
