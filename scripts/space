@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+sessname="workspace"
+
+if [ ! "$TMUX" ]; then
+	tmux new-session -d -s "$sessname"
+	tmux send-keys -t "$sessname" "space ." Enter
+	tmux attach -t "$sessname"
+else
+	dirName=${PWD##*/}
+	tmux rename-window "[s]${dirName}"
+	nvim
+fi

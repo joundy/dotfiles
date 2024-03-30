@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+tmux list-panes -a -F '#{window_index}.#{pane_index}: #{window_name} > #{pane_current_command}' | fzf-tmux -h | sed -E 's/\..*//g' | xargs -I{} tmux select-window -t {}

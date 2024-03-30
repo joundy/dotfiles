@@ -1,0 +1,147 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+window#waybar {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button {
+  /* Use box-shadow instead of border so the text isn't offset */
+  /* box-shadow: inset 0 -1px transparent; */
+  box-shadow: 0 -3px 3px -3px transparent;
+  /* Avoid rounded borders under each button name */
+  border: none;
+  border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background-color: #ffffff;
+  box-shadow: inset 0 -1px #ffffff;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#workspaces button:hover {
+  box-shadow: inset 0px 2px 0px -1px #ccc;
+}
+
+#workspaces button.focused {
+  box-shadow: inset 0px 2px 0px -1px #ccc;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+#mode {
+  background-color: #64727d;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#network,
+#pulseaudio,
+#tray,
+#mode {
+  padding: 0 8px;
+  color: #ffffff;
+}
+
+#window,
+#workspaces {
+  margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#clock {
+  color: #ffffff;
+}
+
+#battery {
+  color: #ffffff;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #26a65b;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+  color: #ffffff;
+  background-color: #f53c3c;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#cpu {
+  color: #ffffff;
+}
+
+#memory {
+  color: #ffffff;
+}
+
+#network {
+  color: #ffffff;
+}
+
+#network.disconnected {
+  color: #f53c3c;
+}
+
+#pulseaudio {
+  color: #ffffff;
+}
+
+#pulseaudio.muted {
+  color: #ffffff;
+}
+
+#tray {
+  color: #ffffff;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}
