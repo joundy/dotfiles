@@ -235,3 +235,16 @@ input "1267:12921:ASUE1307:00_04F3:3279_Touchpad" {
     tap enabled
     natural_scroll enabled
 }
+
+# Create Log out, Reboot, Poweroff bindings
+mode "(l)ogout, (r)eboot, (p)oweroff" {
+        bindsym r exec --no-startup-id systemctl reboot
+        bindsym l exit
+        bindsym p exec --no-startup-id systemctl poweroff
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+Shift+p mode "(l)ogout, (r)eboot, (p)oweroff"
