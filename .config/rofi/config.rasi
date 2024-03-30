@@ -1,5 +1,5 @@
 * {
-    font: "Ubuntu 12";
+    font: "Ubuntu 10";
     foreground: #f8f8f2;
     background-color: #0a0e14;
     active-background: #233240;
