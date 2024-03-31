@@ -39,7 +39,16 @@ Before injecting the configs make sure all of the dependencies are installed
 ## ETC
 - git -> dnf
 - flatpak -> dnf
+  - force apps to use dark mode `flatpak override --user --env=GTK_THEME=Adwaita:dark`
 - openssl -> dnf
+- NetworkManager-openvpn -> dnf
+- blueman (bluetooth manager) -> dnf
+- xss-lock -> dnf
 
-## Flatpak app
-- 
+## Flatpak (flathub) apps
+- com.brave.Browser
+- com.discordapp.Discord
+- com.getpostman.Postman
+- io.beekeeperstudio.Studio
+- com.mongodb.Compass
+- org.telegram.desktop
