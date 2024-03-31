@@ -52,3 +52,4 @@ Before injecting the configs make sure all of the dependencies are installed
 - io.beekeeperstudio.Studio
 - com.mongodb.Compass
 - org.telegram.desktop
+- org.videolan.VLC
