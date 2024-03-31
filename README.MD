@@ -23,12 +23,13 @@ Before injecting the configs make sure all of the dependencies are installed
 - astronvim -> 0da3fa834137597f13e53196c8c6f7e1425601ea, https://github.com/AstroNvim/AstroNvim
 - tmux (builtin)
   - tmux tpm -> https://github.com/tmux-plugins/tpm
+  - `ctrl + g + shift + i`
 - fzf -> dnf
 - fd-finder -> dnf
 - rip grep -> dnf
 - zsh -> dnf
 - ohmyzsh -> https://ohmyz.sh/
-  - 
+  - zsh-autosuggestions -> https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 ## Langs
 - node (nvm) -> https://github.com/nvm-sh/nvm

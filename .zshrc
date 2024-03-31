@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 ###########
 #bitcoin
 alias btcreg=''
-source $HOME/.zsh_secret
+source $HOME/dotfiles/sensitive/dec/.zshrc_secret
 
 # User configuration
 
