@@ -12,10 +12,11 @@ sudo ln -s $HOME/dotfiles/.config/dunst $HOME/.config/
 sudo ln -s $HOME/dotfiles/.config/polybar $HOME/.config/
 sudo ln -s $HOME/dotfiles/.config/nvim/lua/user $HOME/.config/nvim/lua/
 
-sudo ln -s $HOME/dotfiles/X11/xorg.conf.d/90-touchpad.conf /etc/X11/xorg.conf.d/
+sudo ln -s $HOME/dotfiles/etc/X11/xorg.conf.d/90-touchpad.conf /etc/X11/xorg.conf.d/
+sudo ln -s $HOME/dotfiles/etc/xdg/picom.conf /etc/xdg/
 
 # inject sensitive data, need to decrypt the data first
-./dec.bash
+# ./dec.bash
 sudo ln -s $HOME/dotfiles/sensitive/dec/.gitconfig $HOME/.gitconfig
 sudo ln -s $HOME/dotfiles/sensitive/dec/.zsh_history $HOME/.zsh_history
 

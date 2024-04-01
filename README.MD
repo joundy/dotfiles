@@ -43,7 +43,8 @@ Before injecting the configs make sure all of the dependencies are installed
 - openssl -> dnf
 - NetworkManager-openvpn -> dnf
 - blueman (bluetooth manager) -> dnf
-- xss-lock -> dnf
+- xss-lock -> dnf # used by i3 to lock the screen
+- picom -> dnf # use compositor to fix screen tearing
 
 ## Flatpak (flathub) apps
 - com.brave.Browser
