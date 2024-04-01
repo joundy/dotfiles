@@ -14,7 +14,7 @@ return {
     lazy = false,
     config = function(_, opts) require("hop").setup(opts) end,
   },
-  { "Shatur/neovim-ayu", name = "ayu", lazy = false, priority = 1000 },
+  { "joundy/neovim-ayu", name = "ayu", lazy = false, priority = 1000 },
   {
     "tpope/vim-fugitive",
     lazy = false,
