@@ -32,7 +32,7 @@ Before injecting the configs make sure all of the dependencies are installed
   - zsh-autosuggestions -> https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 ## Langs
-- node (nvm) -> https://github.com/nvm-sh/nvm
+- node (fnm) -> https://github.com/Schniz/fnm
 - rust -> https://www.rust-lang.org/tools/install
 - golang -> https://go.dev/doc/install
 
@@ -47,6 +47,7 @@ Before injecting the configs make sure all of the dependencies are installed
 - picom -> dnf # use compositor to fix screen tearing
 
 ## Flatpak (flathub) apps
+- com.github.tchx84.Flatseal
 - com.brave.Browser
 - com.discordapp.Discord
 - com.getpostman.Postman
@@ -54,3 +55,5 @@ Before injecting the configs make sure all of the dependencies are installed
 - com.mongodb.Compass
 - org.telegram.desktop
 - org.videolan.VLC
+- com.spotify.Client
+- org.freedesktop.Piper

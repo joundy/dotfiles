@@ -25,7 +25,7 @@ return {
       "prisma",
       "python",
       "scss",
-      "sql"
+      "sql",
     })
   end,
 }
