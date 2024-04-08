@@ -41,14 +41,17 @@ Before injecting the configs make sure all of the dependencies are installed
 - flatpak -> dnf
   - force apps to use dark mode `flatpak override --user --env=GTK_THEME=Adwaita:dark`
 - openssl -> dnf
+- openssl-devel -> dnf
 - NetworkManager-openvpn -> dnf
 - blueman (bluetooth manager) -> dnf
 - xss-lock -> dnf # used by i3 to lock the screen
 - picom -> dnf # use compositor to fix screen tearing
+- podman -> dnf # docker alternative
 
 ## Flatpak (flathub) apps
 - com.github.tchx84.Flatseal
 - com.brave.Browser
+  - set default -> `xdg-settings set default-web-browser com.brave.Browser.desktop`
 - com.discordapp.Discord
 - com.getpostman.Postman
 - io.beekeeperstudio.Studio
@@ -57,3 +60,4 @@ Before injecting the configs make sure all of the dependencies are installed
 - org.videolan.VLC
 - com.spotify.Client
 - org.freedesktop.Piper
+- io.podman_desktop.PodmanDesktop
