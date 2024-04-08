@@ -25,7 +25,7 @@ Before injecting the configs make sure all of the dependencies are installed
   - tmux tpm -> https://github.com/tmux-plugins/tpm
   - `ctrl + g + shift + i`
 - fzf -> dnf
-- fd-finder -> dnf
+- fd-find -> dnf
 - rip grep -> dnf
 - zsh -> dnf
 - ohmyzsh -> https://ohmyz.sh/
