@@ -66,3 +66,4 @@ Before injecting the configs make sure all of the dependencies are installed
 - org.flameshot.Flameshot
 - net.sourceforge.qtpfsgui.LuminanceHDR
 - com.rawtherapee.RawTherapee
+- org.standardnotes.standardnotes
