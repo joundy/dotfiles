@@ -61,3 +61,8 @@ Before injecting the configs make sure all of the dependencies are installed
 - com.spotify.Client
 - org.freedesktop.Piper
 - io.podman_desktop.PodmanDesktop
+  - compose
+  - minikube
+- org.flameshot.Flameshot
+- net.sourceforge.qtpfsgui.LuminanceHDR
+- com.rawtherapee.RawTherapee
