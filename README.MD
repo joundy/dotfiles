@@ -35,6 +35,12 @@ Before injecting the configs make sure all of the dependencies are installed
 - node (fnm) -> https://github.com/Schniz/fnm
 - rust -> https://www.rust-lang.org/tools/install
 - golang -> https://go.dev/doc/install
+- php
+  - php-cli -> dnf
+  - phpunit  -> dnf
+  - composer -> dnf
+  - extensions
+    - php-pdo -> dnf
 
 ## ETC
 - git -> dnf
