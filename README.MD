@@ -54,6 +54,7 @@ Before injecting the configs make sure all of the dependencies are installed
 - picom -> dnf # use compositor to fix screen tearing
 - podman -> dnf # docker alternative
 - tldr -> dnf
+- libratbag-ratbagd -> dnf # piper requirement
 
 ## Flatpak (flathub) apps
 - com.github.tchx84.Flatseal
