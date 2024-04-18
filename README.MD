@@ -47,6 +47,7 @@ Before injecting the configs make sure all of the dependencies are installed
 - xss-lock -> dnf # used by i3 to lock the screen
 - picom -> dnf # use compositor to fix screen tearing
 - podman -> dnf # docker alternative
+- tldr -> dnf
 
 ## Flatpak (flathub) apps
 - com.github.tchx84.Flatseal
